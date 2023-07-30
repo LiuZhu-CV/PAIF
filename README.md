@@ -41,10 +41,11 @@ The search and training codes will be updated soon.
 <img src='imgs/first.png' width=840> 
 
 ### Results of segmentation
-<img src='imgs/detec.png' width=840> 
+<img src='imgs/Seg.png' width=840> 
 
 ### Results of Detection
-<img src='imgs/Seg.png' width=840> 
+<img src='imgs/detec.png' width=840> 
+
 
 ## Citation
 If you use this code for your research, please cite our paper.
