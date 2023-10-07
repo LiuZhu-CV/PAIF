@@ -1,0 +1,32 @@
+exp: 
+  backbone: mit_b0
+
+dataset:
+  root_dir: /root/data1/cvpr_seg/train_all/
+  name_list_dir: ./
+  num_classes: 9
+  crop_size: 320
+  resize_range: [320,320]
+  rescale_range: [0.5, 2.0]
+  ignore_index: 255
+
+train:
+  split: train
+  samples_per_gpu: 4
+  max_iters: 160000
+  eval_iters: 5000
+  log_iters: 5
+
+val:
+  split: val
+
+optimizer:
+  type: AdamW
+  learning_rate: 8e-5
+  betas: [0.9, 0.999]
+  weight_decay: 0.01
+
+scheduler:
+  warmup_iter: 3000
+  warmup_ratio: 1e-6
+  power: 1.0
