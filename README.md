@@ -16,6 +16,17 @@ Infrared and visible image fusion is a powerful technique that combines compleme
 We first conduct systematic analyses about the components of image fusion, investigating the correlation with segmentation robustness under adversarial perturbations. Based on these analyses, we propose a harmonized architecture search with a decomposition-based structure to balance standard accuracy and robustness. We also propose an adaptive learning strategy to improve the parameter robustness of image fusion, which can learn effective feature extraction under diverse adversarial perturbations. Thus, the goals of image fusion (i.e., extracting complementary features from source modalities and defending attack) can be realized from the perspectives of architectural and learning strategies.
 Extensive experimental results demonstrate that our scheme substantially enhances the robustness, with gains of 15.3\% mIOU of segmentation in the adversarial scene, compared with  advanced competitors.
 
+## Fusion Reuslts and Chinese Version
+
+The source images and fused results on TNO, RoadScene  M3FD (600 images), and MFNet are
+provided in [link](https://drive.google.com/drive/folders/1gSLTvycetEVQAAa50_2aOHQqfswoQ0zD)
+
+中文版介绍提供在此链接 [link](https://arxiv.org/pdf/2308.03979.pdf)
+
+
+Welcome all comparision and disscussion!
+If you have any questions, please sending an email to "liuzhu_ssdut@foxmail.com"
+
 
 ## Requirements
 + Python 3.7
